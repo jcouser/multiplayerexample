@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{59bfbd0d-330a-443d-8f95-13e82ce72e40}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>
+    </RootNamespace>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_2_3;UNITY_5_2;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_2D_PHYSICS;ENABLE_4_6_FEATURES;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_REFLECTION_BUFFERS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_LOG_MIXED_STACKTRACE;ENABLE_UNITYWEBREQUEST;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="UnityEngine">
+      <HintPath>C:\Program Files\Unity\Editor\Data\Managed\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:\Program Files\Unity\Editor\Data\Managed\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>C:\Program Files\Unity\Editor\Data\Frameworks\Mono\lib\mono\unity\System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data">
+      <HintPath>C:\Program Files\Unity\Editor\Data\Frameworks\Mono\lib\mono\unity\System.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>C:\Program Files\Unity\Editor\Data\Frameworks\Mono\lib\mono\unity\System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>C:\Program Files\Unity\Editor\Data\Frameworks\Mono\lib\mono\unity\System.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <HintPath>C:\Program Files\Unity\Editor\Data\Frameworks\Mono\lib\mono\unity\System.Xml.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity\Advertisements\UnityEngine.Advertisements">
+      <HintPath>C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\Advertisements\UnityEngine.Advertisements.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity\Advertisements\Editor\UnityEditor.Advertisements">
+      <HintPath>C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\Advertisements\Editor\UnityEditor.Advertisements.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity\Advertisements\Editor\UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\Advertisements\Editor\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity\GUISystem\UnityEngine.UI">
+      <HintPath>C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\GUISystem\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity\GUISystem\Editor\UnityEditor.UI">
+      <HintPath>C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\GUISystem\Editor\UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity\GUISystem\Standalone\UnityEngine.UI">
+      <HintPath>C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\GUISystem\Standalone\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity\Networking\UnityEngine.Networking">
+      <HintPath>C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\Networking\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity\Networking\Editor\UnityEditor.Networking">
+      <HintPath>C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\Networking\Editor\UnityEditor.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity\Networking\Standalone\UnityEngine.Networking">
+      <HintPath>C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\Networking\Standalone\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity\TestRunner\UnityEngine.TestRunner">
+      <HintPath>C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\TestRunner\UnityEngine.TestRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity\TestRunner\Editor\UnityEditor.TestRunner">
+      <HintPath>C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\TestRunner\Editor\UnityEditor.TestRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity\TestRunner\net35\unity-custom\nunit.framework">
+      <HintPath>C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\TestRunner\net35\unity-custom\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity\TestRunner\portable\nunit.framework">
+      <HintPath>C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\TestRunner\portable\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity\TreeEditor\Editor\UnityEditor.TreeEditor">
+      <HintPath>C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\TreeEditor\Editor\UnityEditor.TreeEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity\UnityAnalytics\UnityEngine.Analytics">
+      <HintPath>C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\UnityAnalytics\UnityEngine.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity\UnityAnalytics\Editor\UnityEditor.Analytics">
+      <HintPath>C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\UnityAnalytics\Editor\UnityEditor.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity\UnityHoloLens\Editor\UnityEditor.HoloLens">
+      <HintPath>C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\UnityHoloLens\Editor\UnityEditor.HoloLens.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity\UnityHoloLens\Runtime\UnityEngine.HoloLens">
+      <HintPath>C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\UnityHoloLens\Runtime\UnityEngine.HoloLens.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity\UnityHoloLens\RuntimeEditor\UnityEngine.HoloLens">
+      <HintPath>C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\UnityHoloLens\RuntimeEditor\UnityEngine.HoloLens.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity\UnityPurchasing\UnityEngine.Purchasing">
+      <HintPath>C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\UnityPurchasing\UnityEngine.Purchasing.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity\UnityPurchasing\Editor\UnityEditor.Purchasing">
+      <HintPath>C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\UnityPurchasing\Editor\UnityEditor.Purchasing.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity\UnityVR\Editor\UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\UnityVR\Editor\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity\UnityVR\Editor\UnityEditor.VR">
+      <HintPath>C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\UnityVR\Editor\UnityEditor.VR.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity\UnityVR\Runtime\UnityEngine.VR">
+      <HintPath>C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\UnityVR\Runtime\UnityEngine.VR.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity\UnityVR\RuntimeEditor\UnityEngine.VR">
+      <HintPath>C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\UnityVR\RuntimeEditor\UnityEngine.VR.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity\VR\Win\AudioPluginMsHRTF">
+      <HintPath>C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\VR\Win\AudioPluginMsHRTF.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity\VR\Win\AudioPluginOculusSpatializer">
+      <HintPath>C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\VR\Win\AudioPluginOculusSpatializer.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity\VR\Win\HolographicStreamerDesktop">
+      <HintPath>C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\VR\Win\HolographicStreamerDesktop.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity\VR\Win\Microsoft.Perception.Simulation">
+      <HintPath>C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\VR\Win\Microsoft.Perception.Simulation.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity\VR\Win\openvr_api">
+      <HintPath>C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\VR\Win\openvr_api.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity\VR\Win\OVRPlugin">
+      <HintPath>C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\VR\Win\OVRPlugin.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity\VR\Win\PerceptionRemotingPlugin">
+      <HintPath>C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\VR\Win\PerceptionRemotingPlugin.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity\VR\Win\PerceptionSimulationManager">
+      <HintPath>C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\VR\Win\PerceptionSimulationManager.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity\VR\Win64\AudioPluginMsHRTF">
+      <HintPath>C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\VR\Win64\AudioPluginMsHRTF.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity\VR\Win64\AudioPluginOculusSpatializer">
+      <HintPath>C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\VR\Win64\AudioPluginOculusSpatializer.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity\VR\Win64\HolographicStreamerDesktop">
+      <HintPath>C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\VR\Win64\HolographicStreamerDesktop.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity\VR\Win64\Microsoft.Perception.Simulation">
+      <HintPath>C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\VR\Win64\Microsoft.Perception.Simulation.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity\VR\Win64\openvr_api">
+      <HintPath>C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\VR\Win64\openvr_api.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity\VR\Win64\OVRPlugin">
+      <HintPath>C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\VR\Win64\OVRPlugin.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity\VR\Win64\PerceptionRemotingPlugin">
+      <HintPath>C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\VR\Win64\PerceptionRemotingPlugin.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity\VR\Win64\PerceptionSimulationManager">
+      <HintPath>C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\VR\Win64\PerceptionSimulationManager.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity\VR\WindowsStoreApps\uap_arm\AudioPluginMsHRTF">
+      <HintPath>C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\VR\WindowsStoreApps\uap_arm\AudioPluginMsHRTF.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity\VR\WindowsStoreApps\uap_x64\AudioPluginMsHRTF">
+      <HintPath>C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\VR\WindowsStoreApps\uap_x64\AudioPluginMsHRTF.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity\VR\WindowsStoreApps\uap_x86\AudioPluginMsHRTF">
+      <HintPath>C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\VR\WindowsStoreApps\uap_x86\AudioPluginMsHRTF.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Editor\SyncRiderProject.cs" />
+    <Compile Include="Assets\Plugins\Editor\JetBrains\Unity3DRider.cs" />
+    <Compile Include="Assets\Scripts\PlayerController.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
