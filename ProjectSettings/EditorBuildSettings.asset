@@ -6,5 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Barebones/Demos/QuickSetup/Scenes/Client.unity
+    guid: 0e99fe7772e673c45bf62f6c82edbd4c
+  - enabled: 1
     path: Assets/Main.unity
     guid: cfe2d10ebfcfacf408719f954da245dc

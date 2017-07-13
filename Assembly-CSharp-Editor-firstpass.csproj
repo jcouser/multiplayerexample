@@ -51,6 +51,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Plugins\Editor\JetBrains\Unity3DRider.cs" />
+    <None Include="Assets\Barebones\MSF ReleaseNotes.txt" />
+    <None Include="Assets\Barebones\MSF README.txt" />
+    <None Include="Assets\Barebones\Resources\Fonts\OpenSans\License!.txt" />
+    <None Include="Assets\Barebones\Credits.txt" />
+    <None Include="Assets\Barebones\Demos\RoomsDemo\Scenes\Scenes Information.txt" />
     <Reference Include="UnityEditor.Advertisements">
       <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
     </Reference>
@@ -113,6 +118,15 @@
     </Reference>
     <Reference Include="UnityEditor.OSXStandalone.Extensions">
       <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="LiteDB">
+      <HintPath>C:/Users/JCooz/Documents/ScratchMulti/Assets/Barebones/MsfDatabaseImplementations/LiteDBV2/Plugins/LiteDB.dll</HintPath>
+    </Reference>
+    <Reference Include="websocket-sharp">
+      <HintPath>C:/Users/JCooz/Documents/ScratchMulti/Assets/Barebones/Networking/Plugins/websocket-sharp.dll</HintPath>
+    </Reference>
+    <Reference Include="BarebonesLogger">
+      <HintPath>C:/Users/JCooz/Documents/ScratchMulti/Assets/Barebones/Plugins/BarebonesLogger.dll</HintPath>
     </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
