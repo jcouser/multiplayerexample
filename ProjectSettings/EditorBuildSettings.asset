@@ -5,9 +5,15 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+  - enabled: 0
+    path: Assets/Barebones/Demos/QuickSetup/Scenes/GameServer.unity
+    guid: 28bcb8a7e79a65047b1d9a30c31f66ae
   - enabled: 1
     path: Assets/Barebones/Demos/QuickSetup/Scenes/Client.unity
     guid: 0e99fe7772e673c45bf62f6c82edbd4c
   - enabled: 1
     path: Assets/Main.unity
     guid: cfe2d10ebfcfacf408719f954da245dc
+  - enabled: 1
+    path: Assets/Barebones/Demos/QuickSetup/Scenes/GameLevels/SimplePlatform.unity
+    guid: 6655c0ba684763e4a935542b62985ac2

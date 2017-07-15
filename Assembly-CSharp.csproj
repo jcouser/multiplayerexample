@@ -1,20 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <LangVersion>4</LangVersion>
-  </PropertyGroup>
-  <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <RootNamespace>
-    </RootNamespace>
-    <ProjectGuid>{AB908FCC-89A8-53B4-4E2B-8FEB505D33BE}</ProjectGuid>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{402E1322-7655-1973-4B46-CF3A463B8BC8}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <BaseDirectory>Assets</BaseDirectory>
   </PropertyGroup>
@@ -23,7 +19,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_2;UNITY_5_6;UNITY_5;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;INCLUDE_DYNAMIC_GI;INCLUDE_GI;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_VIDEO;UNITY_WEBGL;UNITY_WEBGL_API;UNITY_DISABLE_WEB_VERIFICATION;UNITY_GFX_USE_PLATFORM_VSYNC;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_VR;ENABLE_IL2CPP;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_2;UNITY_5_6;UNITY_5;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;INCLUDE_DYNAMIC_GI;INCLUDE_GI;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_VIDEO;UNITY_WEBGL;UNITY_WEBGL_API;UNITY_DISABLE_WEB_VERIFICATION;UNITY_GFX_USE_PLATFORM_VSYNC;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_VR;ENABLE_IL2CPP;NET_2_0;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -43,282 +39,283 @@
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="UnityEngine">
-      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor">
-      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Barebones\Contributions\EmilsConnectionTest\EmilsTestClient.cs" />
-    <Compile Include="Assets\Barebones\Contributions\EmilsConnectionTest\EmilsTestServer.cs" />
-    <Compile Include="Assets\Barebones\Demos\Basics\Scripts\BasicsClientConnector.cs" />
-    <Compile Include="Assets\Barebones\Demos\Basics\Scripts\BasicsMsfStarterUi.cs" />
-    <Compile Include="Assets\Barebones\Demos\Basics\Scripts\BasicsSpawnerStarterUi.cs" />
-    <Compile Include="Assets\Barebones\Demos\Common\Scripts\DemoPlayerProfiles.cs" />
-    <Compile Include="Assets\Barebones\Demos\Common\Scripts\RoomConnector.cs" />
-    <Compile Include="Assets\Barebones\Demos\Common\Scripts\SimpleAccessHandler.cs" />
-    <Compile Include="Assets\Barebones\Demos\Common\Scripts\UnetGameRoom.cs" />
-    <Compile Include="Assets\Barebones\Demos\Common\Scripts\UnetGameTerminator.cs" />
-    <Compile Include="Assets\Barebones\Demos\Common\Scripts\UnetMsfPlayer.cs" />
-    <Compile Include="Assets\Barebones\Demos\Common\Scripts\UnetRoomConnector.cs" />
-    <Compile Include="Assets\Barebones\Demos\Common\Scripts\UnetServerStarter.cs" />
-    <Compile Include="Assets\Barebones\Demos\MiniGame\Scripts\MiniCoin.cs" />
-    <Compile Include="Assets\Barebones\Demos\MiniGame\Scripts\MiniGameUi.cs" />
-    <Compile Include="Assets\Barebones\Demos\MiniGame\Scripts\MiniNetworkManager.cs" />
-    <Compile Include="Assets\Barebones\Demos\MiniGame\Scripts\MiniPlayerController.cs" />
-    <Compile Include="Assets\Barebones\Demos\QuickSetup\Scripts\QuickGameServerScene.cs" />
-    <Compile Include="Assets\Barebones\Demos\RoomsDemo\Scripts\DemoFactoriesSetup.cs" />
-    <Compile Include="Assets\Barebones\Demos\RoomsDemo\Scripts\DemoMainScene.cs" />
-    <Compile Include="Assets\Barebones\Demos\RoomsDemo\Scripts\DemoMasterScene.cs" />
-    <Compile Include="Assets\Barebones\Demos\RoomsDemo\Scripts\DemoMasterSpawnerScene.cs" />
-    <Compile Include="Assets\Barebones\Demos\RoomsDemo\Scripts\DemoSelectScene.cs" />
-    <Compile Include="Assets\Barebones\Demos\RoomsDemo\Scripts\DemoSpawnerScene.cs" />
-    <Compile Include="Assets\Barebones\Demos\RoomsDemo\Scripts\NetworkManagerSample.cs" />
-    <Compile Include="Assets\Barebones\Demos\RoomsDemo\Scripts\SimpleBootstrapper.cs" />
-    <Compile Include="Assets\Barebones\Demos\WorldsDemo\Scripts\TeleportRequestPacket.cs" />
-    <Compile Include="Assets\Barebones\Demos\WorldsDemo\Scripts\WorldDemoLoadingScene.cs" />
-    <Compile Include="Assets\Barebones\Demos\WorldsDemo\Scripts\WorldDemoMainScene.cs" />
-    <Compile Include="Assets\Barebones\Demos\WorldsDemo\Scripts\WorldDemoModule.cs" />
-    <Compile Include="Assets\Barebones\Demos\WorldsDemo\Scripts\WorldDemoOpCodes.cs" />
-    <Compile Include="Assets\Barebones\Demos\WorldsDemo\Scripts\WorldDemoZoneRoom.cs" />
-    <Compile Include="Assets\Barebones\Demos\WorldsDemo\Scripts\ZonePortal.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Client\ConnectionToMaster.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Database\MsfDbAccessorFactory.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Events\EventsChannel.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Mail\Mailer.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Mail\SmtpMailer.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\MasterServer\MasterServerBehaviour.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Authentication\AuthModule.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Authentication\IAccountData.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Authentication\IAuthDatabase.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Authentication\IPasswordResetData.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Authentication\IUserExtension.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Authentication\MsfAuthClient.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Authentication\MsfAuthServer.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Authentication\Packets\AccountInfoPacket.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Authentication\Packets\PeerAccountInfoPacket.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Authentication\PasswordChangeData.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Authentication\UserExtension.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Chat\ChatChannel.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Chat\ChatModule.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Chat\ChatUserExtension.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Chat\MsfChatClient.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Chat\Packets\ChatMessagePacket.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Common\IntPairPacket.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Common\StringPairPacket.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Lobbies\DemoLobbyFactories.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Lobbies\ILobby.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Lobbies\ILobbyFactory.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Lobbies\ILobbyListener.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Lobbies\Implementations\BaseLobby.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Lobbies\Implementations\BaseLobbyAuto.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Lobbies\JoinedLobby.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Lobbies\LobbiesModule.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Lobbies\LobbyConfig.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Lobbies\LobbyFactoryAnonymous.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Lobbies\LobbyMember.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Lobbies\LobbyState.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Lobbies\LobbyTeam.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Lobbies\LobbyUserExtension.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Lobbies\MsfLobbiesClient.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Lobbies\MsfLobbiesServer.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Lobbies\Packets\LobbyChatPacket.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Lobbies\Packets\LobbyDataPacket.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Lobbies\Packets\LobbyJoinTeamPacket.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Lobbies\Packets\LobbyMemberData.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Lobbies\Packets\LobbyMemberPropChangePacket.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Lobbies\Packets\LobbyPropertiesSetPacket.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Lobbies\Packets\LobbyPropertyData.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Lobbies\Packets\LobbyTeamData.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Matchmaker\GameInfoPacket.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Matchmaker\GameInfoType.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Matchmaker\IGamesProvider.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Matchmaker\MatchmakerModule.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Matchmaker\MsfMatchmakerClient.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Profiles\IObservableProperty.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Profiles\IProfilesDatabase.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Profiles\MsfProfilesClient.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Profiles\MsfProfilesServer.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Profiles\ObservableBase.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Profiles\ObservableDictStringFloat.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Profiles\ObservableDictStringInt.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Profiles\ObservableDictionary.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Profiles\ObservableDictionaryInt.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Profiles\ObservableFloat.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Profiles\ObservableInt.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Profiles\ObservableProfile.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Profiles\ObservableServerProfile.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Profiles\ObservableString.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Profiles\ProfileExtension.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Profiles\ProfilesModule.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Rooms\MsfRoomsClient.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Rooms\MsfRoomsServer.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Rooms\Packets\PlayerLeftRoomPacket.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Rooms\Packets\RoomAccessPacket.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Rooms\Packets\RoomAccessProvideCheckPacket.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Rooms\Packets\RoomAccessRequestPacket.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Rooms\Packets\RoomAccessValidatePacket.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Rooms\Packets\SaveRoomOptionsPacket.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Rooms\Packets\UsernameAndPeerIdPacket.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Rooms\RegisteredRoom.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Rooms\RoomController.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Rooms\RoomOptions.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Rooms\RoomsModule.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Spawner\MsfSpawnersClient.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Spawner\MsfSpawnersServer.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Spawner\Packets\ClientsSpawnRequestPacket.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Spawner\Packets\KillSpawnedProcessPacket.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Spawner\Packets\RegisterSpawnedProcessPacket.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Spawner\Packets\SpawnFinalizationPacket.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Spawner\Packets\SpawnRequestPacket.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Spawner\Packets\SpawnStatusUpdatePacket.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Spawner\Packets\SpawnedProcessStartedPacket.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Spawner\RegisteredSpawner.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Spawner\SpawnRequestController.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Spawner\SpawnStatus.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Spawner\SpawnTask.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Spawner\SpawnerBehaviour.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Spawner\SpawnerController.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Spawner\SpawnerOptions.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Spawner\SpawnersModule.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Msf\Msf.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Msf\MsfArgs.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Msf\MsfBaseClient.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Msf\MsfClient.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Msf\MsfConcurrency.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Msf\MsfRuntime.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Msf\MsfSecurity.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Msf\MsfServer.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Msf\SuccessCallback.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\MsfDictKeys.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\MsfOpCodes.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\MsfPropCodes.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Server\IServer.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Server\IServerModule.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Server\PeerSecurityExtension.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Server\ServerBehaviour.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Server\ServerModuleBehaviour.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Utils\HelpBox.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Utils\HelpBoxType.cs" />
-    <Compile Include="Assets\Barebones\Msf\Scripts\Utils\SceneField.cs" />
-    <Compile Include="Assets\Barebones\MsfDatabaseImplementations\LiteDBV2\Scripts\AuthDbLdb.cs" />
-    <Compile Include="Assets\Barebones\MsfDatabaseImplementations\LiteDBV2\Scripts\LiteDbFactory.cs" />
-    <Compile Include="Assets\Barebones\MsfDatabaseImplementations\LiteDBV2\Scripts\ProfilesDatabaseLdb.cs" />
-    <Compile Include="Assets\Barebones\MsfUiSamples\Scripts\Auth\AuthUiController.cs" />
-    <Compile Include="Assets\Barebones\MsfUiSamples\Scripts\Auth\EmailConfirmUi.cs" />
-    <Compile Include="Assets\Barebones\MsfUiSamples\Scripts\Auth\LoginFormData.cs" />
-    <Compile Include="Assets\Barebones\MsfUiSamples\Scripts\Auth\LoginUi.cs" />
-    <Compile Include="Assets\Barebones\MsfUiSamples\Scripts\Auth\PasswordResetUi.cs" />
-    <Compile Include="Assets\Barebones\MsfUiSamples\Scripts\Auth\QuickAuthUi.cs" />
-    <Compile Include="Assets\Barebones\MsfUiSamples\Scripts\Auth\RegisterUi.cs" />
-    <Compile Include="Assets\Barebones\MsfUiSamples\Scripts\Chat\ChatUi.cs" />
-    <Compile Include="Assets\Barebones\MsfUiSamples\Scripts\ClientConnectionStatusUi.cs" />
-    <Compile Include="Assets\Barebones\MsfUiSamples\Scripts\DialogBoxUi.cs" />
-    <Compile Include="Assets\Barebones\MsfUiSamples\Scripts\Draggable.cs" />
-    <Compile Include="Assets\Barebones\MsfUiSamples\Scripts\LoadingUi.cs" />
-    <Compile Include="Assets\Barebones\MsfUiSamples\Scripts\LoadingUiItem.cs" />
-    <Compile Include="Assets\Barebones\MsfUiSamples\Scripts\Lobbies\LobbyChatUi.cs" />
-    <Compile Include="Assets\Barebones\MsfUiSamples\Scripts\Lobbies\LobbyCreateUi.cs" />
-    <Compile Include="Assets\Barebones\MsfUiSamples\Scripts\Lobbies\LobbyPropController.cs" />
-    <Compile Include="Assets\Barebones\MsfUiSamples\Scripts\Lobbies\LobbyPropControllersUi.cs" />
-    <Compile Include="Assets\Barebones\MsfUiSamples\Scripts\Lobbies\LobbyTeamUi.cs" />
-    <Compile Include="Assets\Barebones\MsfUiSamples\Scripts\Lobbies\LobbyUi.cs" />
-    <Compile Include="Assets\Barebones\MsfUiSamples\Scripts\Lobbies\LobbyUserUi.cs" />
-    <Compile Include="Assets\Barebones\MsfUiSamples\Scripts\MsfHud.cs" />
-    <Compile Include="Assets\Barebones\MsfUiSamples\Scripts\MsfUi.cs" />
-    <Compile Include="Assets\Barebones\MsfUiSamples\Scripts\MsfUiDestroyer.cs" />
-    <Compile Include="Assets\Barebones\MsfUiSamples\Scripts\Rooms\CreateGameProgressUi.cs" />
-    <Compile Include="Assets\Barebones\MsfUiSamples\Scripts\Rooms\CreateGameUi.cs" />
-    <Compile Include="Assets\Barebones\MsfUiSamples\Scripts\Rooms\GamesListUi.cs" />
-    <Compile Include="Assets\Barebones\MsfUiSamples\Scripts\Rooms\GamesListUiItem.cs" />
-    <Compile Include="Assets\Barebones\MsfUiSamples\Scripts\RotatingImageUi.cs" />
-    <Compile Include="Assets\Barebones\Networking\Plugins\WebSocket.cs" />
-    <Compile Include="Assets\Barebones\Networking\Scripts\BNetworkReader.cs" />
-    <Compile Include="Assets\Barebones\Networking\Scripts\BNetworkWriter.cs" />
-    <Compile Include="Assets\Barebones\Networking\Scripts\BTimer.cs" />
-    <Compile Include="Assets\Barebones\Networking\Scripts\BarebonesTopology.cs" />
-    <Compile Include="Assets\Barebones\Networking\Scripts\BaseClientSocket.cs" />
-    <Compile Include="Assets\Barebones\Networking\Scripts\BasePeer.cs" />
-    <Compile Include="Assets\Barebones\Networking\Scripts\BmUpdateRunner.cs" />
-    <Compile Include="Assets\Barebones\Networking\Scripts\ClientSocketUnet.cs" />
-    <Compile Include="Assets\Barebones\Networking\Scripts\ClientSocketWs.cs" />
-    <Compile Include="Assets\Barebones\Networking\Scripts\ConnectionStatus.cs" />
-    <Compile Include="Assets\Barebones\Networking\Scripts\DeliveryMethod.cs" />
-    <Compile Include="Assets\Barebones\Networking\Scripts\IClientSocket.cs" />
-    <Compile Include="Assets\Barebones\Networking\Scripts\IIncommingMessage.cs" />
-    <Compile Include="Assets\Barebones\Networking\Scripts\IMessage.cs" />
-    <Compile Include="Assets\Barebones\Networking\Scripts\IMessageFactory.cs" />
-    <Compile Include="Assets\Barebones\Networking\Scripts\IMsgDispatcher.cs" />
-    <Compile Include="Assets\Barebones\Networking\Scripts\IPacketHandler.cs" />
-    <Compile Include="Assets\Barebones\Networking\Scripts\IPeer.cs" />
-    <Compile Include="Assets\Barebones\Networking\Scripts\ISerializablePacket.cs" />
-    <Compile Include="Assets\Barebones\Networking\Scripts\IServerSocket.cs" />
-    <Compile Include="Assets\Barebones\Networking\Scripts\IncomingMessage.cs" />
-    <Compile Include="Assets\Barebones\Networking\Scripts\Message.cs" />
-    <Compile Include="Assets\Barebones\Networking\Scripts\MessageFactory.cs" />
-    <Compile Include="Assets\Barebones\Networking\Scripts\MessageFlag.cs" />
-    <Compile Include="Assets\Barebones\Networking\Scripts\MessageHelper.cs" />
-    <Compile Include="Assets\Barebones\Networking\Scripts\PacketHandler.cs" />
-    <Compile Include="Assets\Barebones\Networking\Scripts\PeerUnet.cs" />
-    <Compile Include="Assets\Barebones\Networking\Scripts\PeerWs.cs" />
-    <Compile Include="Assets\Barebones\Networking\Scripts\ResponseStatus.cs" />
-    <Compile Include="Assets\Barebones\Networking\Scripts\SerializablePacket.cs" />
-    <Compile Include="Assets\Barebones\Networking\Scripts\SerializationExtensions.cs" />
-    <Compile Include="Assets\Barebones\Networking\Scripts\Serializer.cs" />
-    <Compile Include="Assets\Barebones\Networking\Scripts\ServerSocketUnet.cs" />
-    <Compile Include="Assets\Barebones\Networking\Scripts\ServerSocketWs.cs" />
-    <Compile Include="Assets\Barebones\Networking\Scripts\Utils\Conversion\BigEndianBitConverter.cs" />
-    <Compile Include="Assets\Barebones\Networking\Scripts\Utils\Conversion\DoubleConverter.cs" />
-    <Compile Include="Assets\Barebones\Networking\Scripts\Utils\Conversion\EndianBitConverter.cs" />
-    <Compile Include="Assets\Barebones\Networking\Scripts\Utils\Conversion\Endianness.cs" />
-    <Compile Include="Assets\Barebones\Networking\Scripts\Utils\Conversion\LittleEndianBitConverter.cs" />
-    <Compile Include="Assets\Barebones\Networking\Scripts\Utils\IO\EndianBinaryReader.cs" />
-    <Compile Include="Assets\Barebones\Networking\Scripts\Utils\IO\EndianBinaryWriter.cs" />
-    <Compile Include="Assets\Barebones\Plugins\JSONObject.cs" />
-    <Compile Include="Assets\Barebones\Utils\Scripts\BmAutoEnabler.cs" />
-    <Compile Include="Assets\Barebones\Utils\Scripts\BmHelper.cs" />
-    <Compile Include="Assets\Barebones\Utils\Scripts\GUIConsole.cs" />
-    <Compile Include="Assets\Barebones\Utils\Scripts\GenericPool.cs" />
-    <Compile Include="Assets\Barebones\Utils\Scripts\GenericUiList.cs" />
-    <Compile Include="Assets\Barebones\Utils\Scripts\SafeCoroutine.cs" />
-    <Compile Include="Assets\Scripts\DedicatedServer.cs" />
-    <Compile Include="Assets\Scripts\PlayerController.cs" />
-    <None Include="Assets\Barebones\MSF ReleaseNotes.txt" />
-    <None Include="Assets\Barebones\MSF README.txt" />
-    <None Include="Assets\Barebones\Resources\Fonts\OpenSans\License!.txt" />
-    <None Include="Assets\Barebones\Credits.txt" />
-    <None Include="Assets\Barebones\Demos\RoomsDemo\Scenes\Scenes Information.txt" />
-    <Reference Include="UnityEngine.UI">
-      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.Networking">
-      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.TestRunner">
-      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
-    </Reference>
-    <Reference Include="nunit.framework">
-      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.Analytics">
-      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.HoloLens">
-      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.VR">
-      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
-    </Reference>
-    <Reference Include="LiteDB">
-      <HintPath>C:/Users/JCooz/Documents/ScratchMulti/Assets/Barebones/MsfDatabaseImplementations/LiteDBV2/Plugins/LiteDB.dll</HintPath>
-    </Reference>
-    <Reference Include="websocket-sharp">
-      <HintPath>C:/Users/JCooz/Documents/ScratchMulti/Assets/Barebones/Networking/Plugins/websocket-sharp.dll</HintPath>
-    </Reference>
-    <Reference Include="BarebonesLogger">
-      <HintPath>C:/Users/JCooz/Documents/ScratchMulti/Assets/Barebones/Plugins/BarebonesLogger.dll</HintPath>
-    </Reference>
+     <Compile Include="Assets\Barebones\Contributions\EmilsConnectionTest\EmilsTestClient.cs" />
+     <Compile Include="Assets\Barebones\Contributions\EmilsConnectionTest\EmilsTestServer.cs" />
+     <Compile Include="Assets\Barebones\Demos\Basics\Scripts\BasicsClientConnector.cs" />
+     <Compile Include="Assets\Barebones\Demos\Basics\Scripts\BasicsMsfStarterUi.cs" />
+     <Compile Include="Assets\Barebones\Demos\Basics\Scripts\BasicsSpawnerStarterUi.cs" />
+     <Compile Include="Assets\Barebones\Demos\Common\Scripts\DemoPlayerProfiles.cs" />
+     <Compile Include="Assets\Barebones\Demos\Common\Scripts\RoomConnector.cs" />
+     <Compile Include="Assets\Barebones\Demos\Common\Scripts\SimpleAccessHandler.cs" />
+     <Compile Include="Assets\Barebones\Demos\Common\Scripts\UnetGameRoom.cs" />
+     <Compile Include="Assets\Barebones\Demos\Common\Scripts\UnetGameTerminator.cs" />
+     <Compile Include="Assets\Barebones\Demos\Common\Scripts\UnetMsfPlayer.cs" />
+     <Compile Include="Assets\Barebones\Demos\Common\Scripts\UnetRoomConnector.cs" />
+     <Compile Include="Assets\Barebones\Demos\Common\Scripts\UnetServerStarter.cs" />
+     <Compile Include="Assets\Barebones\Demos\MiniGame\Scripts\MiniCoin.cs" />
+     <Compile Include="Assets\Barebones\Demos\MiniGame\Scripts\MiniGameUi.cs" />
+     <Compile Include="Assets\Barebones\Demos\MiniGame\Scripts\MiniNetworkManager.cs" />
+     <Compile Include="Assets\Barebones\Demos\MiniGame\Scripts\MiniPlayerController.cs" />
+     <Compile Include="Assets\Barebones\Demos\QuickSetup\Scripts\QuickGameServerScene.cs" />
+     <Compile Include="Assets\Barebones\Demos\RoomsDemo\Scripts\DemoFactoriesSetup.cs" />
+     <Compile Include="Assets\Barebones\Demos\RoomsDemo\Scripts\DemoMainScene.cs" />
+     <Compile Include="Assets\Barebones\Demos\RoomsDemo\Scripts\DemoMasterScene.cs" />
+     <Compile Include="Assets\Barebones\Demos\RoomsDemo\Scripts\DemoMasterSpawnerScene.cs" />
+     <Compile Include="Assets\Barebones\Demos\RoomsDemo\Scripts\DemoSelectScene.cs" />
+     <Compile Include="Assets\Barebones\Demos\RoomsDemo\Scripts\DemoSpawnerScene.cs" />
+     <Compile Include="Assets\Barebones\Demos\RoomsDemo\Scripts\NetworkManagerSample.cs" />
+     <Compile Include="Assets\Barebones\Demos\RoomsDemo\Scripts\SimpleBootstrapper.cs" />
+     <Compile Include="Assets\Barebones\Demos\WorldsDemo\Scripts\TeleportRequestPacket.cs" />
+     <Compile Include="Assets\Barebones\Demos\WorldsDemo\Scripts\WorldDemoLoadingScene.cs" />
+     <Compile Include="Assets\Barebones\Demos\WorldsDemo\Scripts\WorldDemoMainScene.cs" />
+     <Compile Include="Assets\Barebones\Demos\WorldsDemo\Scripts\WorldDemoModule.cs" />
+     <Compile Include="Assets\Barebones\Demos\WorldsDemo\Scripts\WorldDemoOpCodes.cs" />
+     <Compile Include="Assets\Barebones\Demos\WorldsDemo\Scripts\WorldDemoZoneRoom.cs" />
+     <Compile Include="Assets\Barebones\Demos\WorldsDemo\Scripts\ZonePortal.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Client\ConnectionToMaster.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Database\MsfDbAccessorFactory.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Events\EventsChannel.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Mail\Mailer.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Mail\SmtpMailer.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\MasterServer\MasterServerBehaviour.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Authentication\AuthModule.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Authentication\IAccountData.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Authentication\IAuthDatabase.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Authentication\IPasswordResetData.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Authentication\IUserExtension.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Authentication\MsfAuthClient.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Authentication\MsfAuthServer.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Authentication\Packets\AccountInfoPacket.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Authentication\Packets\PeerAccountInfoPacket.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Authentication\PasswordChangeData.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Authentication\UserExtension.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Chat\ChatChannel.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Chat\ChatModule.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Chat\ChatUserExtension.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Chat\MsfChatClient.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Chat\Packets\ChatMessagePacket.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Common\IntPairPacket.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Common\StringPairPacket.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Lobbies\DemoLobbyFactories.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Lobbies\ILobby.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Lobbies\ILobbyFactory.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Lobbies\ILobbyListener.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Lobbies\Implementations\BaseLobby.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Lobbies\Implementations\BaseLobbyAuto.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Lobbies\JoinedLobby.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Lobbies\LobbiesModule.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Lobbies\LobbyConfig.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Lobbies\LobbyFactoryAnonymous.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Lobbies\LobbyMember.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Lobbies\LobbyState.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Lobbies\LobbyTeam.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Lobbies\LobbyUserExtension.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Lobbies\MsfLobbiesClient.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Lobbies\MsfLobbiesServer.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Lobbies\Packets\LobbyChatPacket.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Lobbies\Packets\LobbyDataPacket.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Lobbies\Packets\LobbyJoinTeamPacket.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Lobbies\Packets\LobbyMemberData.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Lobbies\Packets\LobbyMemberPropChangePacket.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Lobbies\Packets\LobbyPropertiesSetPacket.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Lobbies\Packets\LobbyPropertyData.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Lobbies\Packets\LobbyTeamData.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Matchmaker\GameInfoPacket.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Matchmaker\GameInfoType.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Matchmaker\IGamesProvider.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Matchmaker\MatchmakerModule.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Matchmaker\MsfMatchmakerClient.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Profiles\IObservableProperty.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Profiles\IProfilesDatabase.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Profiles\MsfProfilesClient.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Profiles\MsfProfilesServer.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Profiles\ObservableBase.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Profiles\ObservableDictStringFloat.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Profiles\ObservableDictStringInt.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Profiles\ObservableDictionary.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Profiles\ObservableDictionaryInt.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Profiles\ObservableFloat.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Profiles\ObservableInt.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Profiles\ObservableProfile.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Profiles\ObservableServerProfile.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Profiles\ObservableString.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Profiles\ProfileExtension.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Profiles\ProfilesModule.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Rooms\MsfRoomsClient.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Rooms\MsfRoomsServer.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Rooms\Packets\PlayerLeftRoomPacket.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Rooms\Packets\RoomAccessPacket.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Rooms\Packets\RoomAccessProvideCheckPacket.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Rooms\Packets\RoomAccessRequestPacket.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Rooms\Packets\RoomAccessValidatePacket.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Rooms\Packets\SaveRoomOptionsPacket.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Rooms\Packets\UsernameAndPeerIdPacket.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Rooms\RegisteredRoom.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Rooms\RoomController.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Rooms\RoomOptions.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Rooms\RoomsModule.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Spawner\MsfSpawnersClient.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Spawner\MsfSpawnersServer.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Spawner\Packets\ClientsSpawnRequestPacket.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Spawner\Packets\KillSpawnedProcessPacket.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Spawner\Packets\RegisterSpawnedProcessPacket.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Spawner\Packets\SpawnFinalizationPacket.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Spawner\Packets\SpawnRequestPacket.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Spawner\Packets\SpawnStatusUpdatePacket.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Spawner\Packets\SpawnedProcessStartedPacket.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Spawner\RegisteredSpawner.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Spawner\SpawnRequestController.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Spawner\SpawnStatus.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Spawner\SpawnTask.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Spawner\SpawnerBehaviour.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Spawner\SpawnerController.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Spawner\SpawnerOptions.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Modules\Spawner\SpawnersModule.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Msf\Msf.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Msf\MsfArgs.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Msf\MsfBaseClient.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Msf\MsfClient.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Msf\MsfConcurrency.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Msf\MsfRuntime.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Msf\MsfSecurity.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Msf\MsfServer.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Msf\SuccessCallback.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\MsfDictKeys.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\MsfOpCodes.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\MsfPropCodes.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Server\IServer.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Server\IServerModule.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Server\PeerSecurityExtension.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Server\ServerBehaviour.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Server\ServerModuleBehaviour.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Utils\HelpBox.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Utils\HelpBoxType.cs" />
+     <Compile Include="Assets\Barebones\Msf\Scripts\Utils\SceneField.cs" />
+     <Compile Include="Assets\Barebones\MsfDatabaseImplementations\LiteDBV2\Scripts\AuthDbLdb.cs" />
+     <Compile Include="Assets\Barebones\MsfDatabaseImplementations\LiteDBV2\Scripts\LiteDbFactory.cs" />
+     <Compile Include="Assets\Barebones\MsfDatabaseImplementations\LiteDBV2\Scripts\ProfilesDatabaseLdb.cs" />
+     <Compile Include="Assets\Barebones\MsfUiSamples\Scripts\Auth\AuthUiController.cs" />
+     <Compile Include="Assets\Barebones\MsfUiSamples\Scripts\Auth\EmailConfirmUi.cs" />
+     <Compile Include="Assets\Barebones\MsfUiSamples\Scripts\Auth\LoginFormData.cs" />
+     <Compile Include="Assets\Barebones\MsfUiSamples\Scripts\Auth\LoginUi.cs" />
+     <Compile Include="Assets\Barebones\MsfUiSamples\Scripts\Auth\PasswordResetUi.cs" />
+     <Compile Include="Assets\Barebones\MsfUiSamples\Scripts\Auth\QuickAuthUi.cs" />
+     <Compile Include="Assets\Barebones\MsfUiSamples\Scripts\Auth\RegisterUi.cs" />
+     <Compile Include="Assets\Barebones\MsfUiSamples\Scripts\Chat\ChatUi.cs" />
+     <Compile Include="Assets\Barebones\MsfUiSamples\Scripts\ClientConnectionStatusUi.cs" />
+     <Compile Include="Assets\Barebones\MsfUiSamples\Scripts\DialogBoxUi.cs" />
+     <Compile Include="Assets\Barebones\MsfUiSamples\Scripts\Draggable.cs" />
+     <Compile Include="Assets\Barebones\MsfUiSamples\Scripts\LoadingUi.cs" />
+     <Compile Include="Assets\Barebones\MsfUiSamples\Scripts\LoadingUiItem.cs" />
+     <Compile Include="Assets\Barebones\MsfUiSamples\Scripts\Lobbies\LobbyChatUi.cs" />
+     <Compile Include="Assets\Barebones\MsfUiSamples\Scripts\Lobbies\LobbyCreateUi.cs" />
+     <Compile Include="Assets\Barebones\MsfUiSamples\Scripts\Lobbies\LobbyPropController.cs" />
+     <Compile Include="Assets\Barebones\MsfUiSamples\Scripts\Lobbies\LobbyPropControllersUi.cs" />
+     <Compile Include="Assets\Barebones\MsfUiSamples\Scripts\Lobbies\LobbyTeamUi.cs" />
+     <Compile Include="Assets\Barebones\MsfUiSamples\Scripts\Lobbies\LobbyUi.cs" />
+     <Compile Include="Assets\Barebones\MsfUiSamples\Scripts\Lobbies\LobbyUserUi.cs" />
+     <Compile Include="Assets\Barebones\MsfUiSamples\Scripts\MsfHud.cs" />
+     <Compile Include="Assets\Barebones\MsfUiSamples\Scripts\MsfUi.cs" />
+     <Compile Include="Assets\Barebones\MsfUiSamples\Scripts\MsfUiDestroyer.cs" />
+     <Compile Include="Assets\Barebones\MsfUiSamples\Scripts\Rooms\CreateGameProgressUi.cs" />
+     <Compile Include="Assets\Barebones\MsfUiSamples\Scripts\Rooms\CreateGameUi.cs" />
+     <Compile Include="Assets\Barebones\MsfUiSamples\Scripts\Rooms\GamesListUi.cs" />
+     <Compile Include="Assets\Barebones\MsfUiSamples\Scripts\Rooms\GamesListUiItem.cs" />
+     <Compile Include="Assets\Barebones\MsfUiSamples\Scripts\RotatingImageUi.cs" />
+     <Compile Include="Assets\Barebones\Networking\Plugins\WebSocket.cs" />
+     <Compile Include="Assets\Barebones\Networking\Scripts\BNetworkReader.cs" />
+     <Compile Include="Assets\Barebones\Networking\Scripts\BNetworkWriter.cs" />
+     <Compile Include="Assets\Barebones\Networking\Scripts\BTimer.cs" />
+     <Compile Include="Assets\Barebones\Networking\Scripts\BarebonesTopology.cs" />
+     <Compile Include="Assets\Barebones\Networking\Scripts\BaseClientSocket.cs" />
+     <Compile Include="Assets\Barebones\Networking\Scripts\BasePeer.cs" />
+     <Compile Include="Assets\Barebones\Networking\Scripts\BmUpdateRunner.cs" />
+     <Compile Include="Assets\Barebones\Networking\Scripts\ClientSocketUnet.cs" />
+     <Compile Include="Assets\Barebones\Networking\Scripts\ClientSocketWs.cs" />
+     <Compile Include="Assets\Barebones\Networking\Scripts\ConnectionStatus.cs" />
+     <Compile Include="Assets\Barebones\Networking\Scripts\DeliveryMethod.cs" />
+     <Compile Include="Assets\Barebones\Networking\Scripts\IClientSocket.cs" />
+     <Compile Include="Assets\Barebones\Networking\Scripts\IIncommingMessage.cs" />
+     <Compile Include="Assets\Barebones\Networking\Scripts\IMessage.cs" />
+     <Compile Include="Assets\Barebones\Networking\Scripts\IMessageFactory.cs" />
+     <Compile Include="Assets\Barebones\Networking\Scripts\IMsgDispatcher.cs" />
+     <Compile Include="Assets\Barebones\Networking\Scripts\IPacketHandler.cs" />
+     <Compile Include="Assets\Barebones\Networking\Scripts\IPeer.cs" />
+     <Compile Include="Assets\Barebones\Networking\Scripts\ISerializablePacket.cs" />
+     <Compile Include="Assets\Barebones\Networking\Scripts\IServerSocket.cs" />
+     <Compile Include="Assets\Barebones\Networking\Scripts\IncomingMessage.cs" />
+     <Compile Include="Assets\Barebones\Networking\Scripts\Message.cs" />
+     <Compile Include="Assets\Barebones\Networking\Scripts\MessageFactory.cs" />
+     <Compile Include="Assets\Barebones\Networking\Scripts\MessageFlag.cs" />
+     <Compile Include="Assets\Barebones\Networking\Scripts\MessageHelper.cs" />
+     <Compile Include="Assets\Barebones\Networking\Scripts\PacketHandler.cs" />
+     <Compile Include="Assets\Barebones\Networking\Scripts\PeerUnet.cs" />
+     <Compile Include="Assets\Barebones\Networking\Scripts\PeerWs.cs" />
+     <Compile Include="Assets\Barebones\Networking\Scripts\ResponseStatus.cs" />
+     <Compile Include="Assets\Barebones\Networking\Scripts\SerializablePacket.cs" />
+     <Compile Include="Assets\Barebones\Networking\Scripts\SerializationExtensions.cs" />
+     <Compile Include="Assets\Barebones\Networking\Scripts\Serializer.cs" />
+     <Compile Include="Assets\Barebones\Networking\Scripts\ServerSocketUnet.cs" />
+     <Compile Include="Assets\Barebones\Networking\Scripts\ServerSocketWs.cs" />
+     <Compile Include="Assets\Barebones\Networking\Scripts\Utils\Conversion\BigEndianBitConverter.cs" />
+     <Compile Include="Assets\Barebones\Networking\Scripts\Utils\Conversion\DoubleConverter.cs" />
+     <Compile Include="Assets\Barebones\Networking\Scripts\Utils\Conversion\EndianBitConverter.cs" />
+     <Compile Include="Assets\Barebones\Networking\Scripts\Utils\Conversion\Endianness.cs" />
+     <Compile Include="Assets\Barebones\Networking\Scripts\Utils\Conversion\LittleEndianBitConverter.cs" />
+     <Compile Include="Assets\Barebones\Networking\Scripts\Utils\IO\EndianBinaryReader.cs" />
+     <Compile Include="Assets\Barebones\Networking\Scripts\Utils\IO\EndianBinaryWriter.cs" />
+     <Compile Include="Assets\Barebones\Plugins\JSONObject.cs" />
+     <Compile Include="Assets\Barebones\Utils\Scripts\BmAutoEnabler.cs" />
+     <Compile Include="Assets\Barebones\Utils\Scripts\BmHelper.cs" />
+     <Compile Include="Assets\Barebones\Utils\Scripts\GUIConsole.cs" />
+     <Compile Include="Assets\Barebones\Utils\Scripts\GenericPool.cs" />
+     <Compile Include="Assets\Barebones\Utils\Scripts\GenericUiList.cs" />
+     <Compile Include="Assets\Barebones\Utils\Scripts\SafeCoroutine.cs" />
+     <Compile Include="Assets\Scripts\ClientConnect.cs" />
+     <Compile Include="Assets\Scripts\DedicatedServer.cs" />
+     <Compile Include="Assets\Scripts\PlayerController.cs" />
+     <None Include="Assets\Barebones\MSF ReleaseNotes.txt" />
+     <None Include="Assets\Barebones\MSF README.txt" />
+     <None Include="Assets\Barebones\Resources\Fonts\OpenSans\License!.txt" />
+     <None Include="Assets\Barebones\Credits.txt" />
+     <None Include="Assets\Barebones\Demos\RoomsDemo\Scenes\Scenes Information.txt" />
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TestRunner">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VR">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+ </Reference>
+ <Reference Include="LiteDB">
+ <HintPath>/Users/jeremycouser/Downloads/multiplayerexample-master/Assets/Barebones/MsfDatabaseImplementations/LiteDBV2/Plugins/LiteDB.dll</HintPath>
+ </Reference>
+ <Reference Include="websocket-sharp">
+ <HintPath>/Users/jeremycouser/Downloads/multiplayerexample-master/Assets/Barebones/Networking/Plugins/websocket-sharp.dll</HintPath>
+ </Reference>
+ <Reference Include="BarebonesLogger">
+ <HintPath>/Users/jeremycouser/Downloads/multiplayerexample-master/Assets/Barebones/Plugins/BarebonesLogger.dll</HintPath>
+ </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
@@ -328,4 +325,5 @@
   <Target Name="AfterBuild">
   </Target>
   -->
+  
 </Project>

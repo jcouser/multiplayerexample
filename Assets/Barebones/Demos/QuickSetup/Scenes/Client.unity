@@ -431,7 +431,7 @@ Prefab:
     - target: {fileID: 114603400722775538, guid: 5b67f1ab43403c049908bcf730f6dc92,
         type: 2}
       propertyPath: Maps.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 114632397433143634, guid: 5b67f1ab43403c049908bcf730f6dc92,
         type: 2}
@@ -667,7 +667,7 @@ Prefab:
     - target: {fileID: 114603400722775538, guid: 5b67f1ab43403c049908bcf730f6dc92,
         type: 2}
       propertyPath: Maps.Array.data[0].Name
-      value: Simple Multiplayer
+      value: Pill Game
       objectReference: {fileID: 0}
     - target: {fileID: 114981069492745094, guid: 5b67f1ab43403c049908bcf730f6dc92,
         type: 2}
@@ -682,18 +682,18 @@ Prefab:
     - target: {fileID: 114603400722775538, guid: 5b67f1ab43403c049908bcf730f6dc92,
         type: 2}
       propertyPath: Maps.Array.data[1].Name
-      value: Test Map
+      value: Simple Platform
       objectReference: {fileID: 0}
     - target: {fileID: 114603400722775538, guid: 5b67f1ab43403c049908bcf730f6dc92,
         type: 2}
       propertyPath: Maps.Array.data[1].Scene.m_SceneAsset
       value: 
-      objectReference: {fileID: 102900000, guid: e296c107dd9d0b84398d86dea0040ab3,
+      objectReference: {fileID: 102900000, guid: 6655c0ba684763e4a935542b62985ac2,
         type: 3}
     - target: {fileID: 114603400722775538, guid: 5b67f1ab43403c049908bcf730f6dc92,
         type: 2}
       propertyPath: Maps.Array.data[1].Scene.m_SceneName
-      value: Testing
+      value: SimplePlatform
       objectReference: {fileID: 0}
     - target: {fileID: 114603400722775538, guid: 5b67f1ab43403c049908bcf730f6dc92,
         type: 2}
